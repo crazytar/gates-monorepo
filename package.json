@@ -1,0 +1,26 @@
+{
+  "name": "gates-monorepo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/**/*"
+  ],
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "19",
+    "clsx": "^2.1.1",
+    "eslint": "^10.14.0",
+    "prettier": "^3.9.5",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "tailwind-merge": "^3",
+    "tailwindcss": "^4",
+    "tsx": "^4",
+    "typescript": "^6"
+  },
+  "resolutions": {
+    "react": "^19",
+    "react-native": "^0.99"
+  }
+}

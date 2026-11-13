@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.1.1",
+  "description": "",
+  "files": [
+    "index.ts "
+  ],
+  "main": "index.ts ",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+packages:
+  - "packages/**"
+  - "apps/*"
+
+allowBuilds:
+  "@tailwindcss/oxide": false
+  esbuild: false
+minimumReleaseAgeExclude:
+  - expo-auth-session@57.0.17
+  - expo-constants@57.0.24
+  - expo-linking@57.0.14
+overrides:
+  lightningcss: "1.30.1"

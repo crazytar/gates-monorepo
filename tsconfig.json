@@ -1,0 +1,15 @@
+{
+  // "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "shared/*": ["./packages/*"]
+    }
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules", "packages/*/node_modules", "packages/*/dist"]
+}
